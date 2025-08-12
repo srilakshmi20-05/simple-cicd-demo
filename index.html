@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopCenter - Your Online Store</title>
+    <style>
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #3498db;
+        }
+        
+        /* Main content styles */
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .hero-image {
+            margin: 2rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .content-section {
+            margin: 3rem 0;
+        }
+        
+        ul {
+            margin-top: 2rem;
+            list-style-position: inside;
+            line-height: 1.8;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+        }
+        
+        .card-content p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        
+        /* Footer styles */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ShopCenter</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+        <section class="hero">
+            <h1>Welcome to ShopCenter</h1>
+            <p>Find the best products at unbeatable prices</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Top Categories</h2>
+            <ul>
+                <li><strong>Electronics</strong>: Smartphones, laptops, and gadgets</li>
+                <li><strong>Fashion</strong>: Clothing, shoes and accessories</li>
+                <li><strong>Home & Kitchen</strong>: All essentials for your household</li>
+                <li><strong>Books</strong>: Best sellers and educational materials</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Featured Products</h2>
+            <ul>
+                <li><strong>Premium Wireless Headphones</strong> - 2000/-</li>
+                <li><strong>Smart Watch Series 5</strong> - 5000-/-</li>
+                <li><strong>Organic Cotton T-Shirt</strong> -1000-/-</li>
+                <li><strong>Stainless Steel Cookware Set</strong> - 1500-/-</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 ShopCenter. All rights reserved.</p>
+        <p>Free shipping on all orders over 20000-/-</p>
+    </footer>
+
+    <script>
+        // Simple JavaScript for demonstration
+        document.addEventListener('DOMContentLoaded', function() {
+            // You can add interactive functionality here
+            console.log('Page loaded successfully');
+        });
+    </script>
+</body>
+</html>
